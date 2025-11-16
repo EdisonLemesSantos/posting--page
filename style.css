@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+font-family: system-ui;
+margin: 0;
+border: 0;
+height: auto;
+}
+label {
+display: block;
+}
+#container-formulario {
+  background-color: rgba(0,0,0,0.5);
+  width: 500px;
+  height: 953px;
+  padding: 10px;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+.info {
+ display: block;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin: 0;
+  top: 0;
+  left: 0;
+ align-items: center;
+}
+#retorno {
+display: inline-block;
+position: fixed;
+left: 600px;
+top: 50px;
+}
+#enviar {
+display: block;
+text-align: center;
+align-items: center;
+margin-top: 10px;
+}
+input[type=text],
+  textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+textarea {
+height: 50px;
+resize: vertical;
+}
